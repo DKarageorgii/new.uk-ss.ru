@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="276ca5d6-8e8c-44ef-bf74-0d3bb5e3a7b0" name="new.uk-ss.ru" url="http://new.uk-ss.ru">
+        <fileTransfer host="new.uk-ss.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="f401aa5f-7e89-4fa0-8769-30883a54e662" name="SFTP-new.uk-ss.ru" url="http://new.uk-ss.ru">
+        <fileTransfer rootFolder="/var/www/u681413/data/www/new.uk-ss.ru" accessType="SFTP" host="u681413.com4.ru" port="9999" sshConfigId="0ebce291-d3ef-4187-82ec-464756ca72a2" sshConfig="u681413@u681413.com4.ru:9999 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
